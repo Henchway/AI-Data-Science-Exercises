@@ -23,9 +23,9 @@ class Node:
 
 
 def random_start_node():
-    initial_state = [x for x in range(0, 9)]
-    random.shuffle(initial_state)
-    return tuple(initial_state)
+    init = [x for x in range(0, 9)]
+    random.shuffle(init)
+    return tuple(init)
 
 
 def reconstruct_path(node):
