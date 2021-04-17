@@ -1,0 +1,181 @@
+import random
+import time
+from queue import PriorityQueue
+
+import numpy as np
+
+
+class Node:
+    def __init__(self, name, puzzle, parent, heuristic=0):
+        self.name = name
+        self.puzzle = puzzle
+        self.parent = parent
+        self.heuristic = heuristic
+
+    def __lt__(self, other):
+        return self.heuristic < other.heuristic
+
+    def __eq__(self, other):
+        return self.__class__ == other.__class__ and self.puzzle == other.puzzle
+
+    def __hash__(self):
+        return hash(self.puzzle)
+
+
+def random_start_node():
+    initial_state = [x for x in range(0, 9)]
+    random.shuffle(initial_state)
+    return tuple(initial_state)
+
+
+def reconstruct_path(node):
+    steps = []
+    while node.parent is not None:
+        steps.append(node)
+        node = node.parent
+    steps.append(node)
+    return steps
+
+
+def print_path(steps):
+    steps.reverse()
+    print(f"The puzzle was solved in {len(steps) - 1} steps.")
+    for step in steps:
+        print("===========")
+        print(np.reshape(step.puzzle, (3, 3)))
+        print("===========")
+
+
+def a_star(start, goal, heuristic):
+    root = Node("root", start, None, heuristic=0)
+    open_set = PriorityQueue()
+
+    g_score = {root: 0}
+    root.heuristic = g_score[root] + heuristic(root.puzzle, goal)
+    open_set.put((root.heuristic, root))
+
+    while open_set.qsize() > 0:
+        current = open_set.get()[1]
+        if current.puzzle == goal:
+            return reconstruct_path(current)
+
+        neighbors = get_neighbors(current)
+        for neighbor in neighbors:
+            tentative_g_score = g_score[current] + 1
+            if tentative_g_score < g_score.get(neighbor, float('inf')):
+                g_score[neighbor] = tentative_g_score
+                neighbor.heuristic = g_score[neighbor] + heuristic(neighbor.puzzle, goal)
+                if not any((neighbor.heuristic, neighbor) in item for item in open_set.queue):
+                    open_set.put((neighbor.heuristic, neighbor))
+
+        open_set.task_done()
+    return False
+
+
+def manhattan_distance(start, goal):
+    distance = 0
+    start = np.reshape(start, (3, 3))
+    goal = np.reshape(goal, (3, 3))
+
+    for i, array in enumerate(start):
+        for j, number in enumerate(array):
+            (row, column) = np.where(goal == number)
+            distance += abs(i - row) + abs(j - column)
+    return int(distance)
+
+
+def count_misplaced(start, goal):
+    misplaced = 0
+    start = np.reshape(start, (3, 3))
+    goal = np.reshape(goal, (3, 3))
+    for i, array in enumerate(start):
+        for j, number in enumerate(array):
+            if start[i][j] != goal[i][j]:
+                misplaced += 1
+    return misplaced
+
+
+def count_misplaced_plus_manhattan(start, goal):
+    manhattan = manhattan_distance(start, goal)
+    misplaced = count_misplaced(start, goal)
+    return manhattan + misplaced
+
+
+def is_solvable(start) -> bool:
+    """
+    Checks whether the 8-puzzle problem is solvable based on inversions.
+    Args:
+        start: The start state of the board input by the user.
+    Returns:
+        Whether the 8-puzzle problem is solvable.
+    """
+
+    start = np.reshape(start, (3, 3))
+    k = start[start != 0]
+    num_inversions = sum(
+        len(np.array(np.where(k[i + 1:] < k[i])).reshape(-1)) for i in
+        range(len(k) - 1))
+    return num_inversions % 2 == 0
+
+
+def get_neighbors(parent):
+    parent_puzzle = np.reshape(parent.puzzle, (3, 3))
+
+    (row, col) = np.where(parent_puzzle == 0)
+    row = int(row[0])
+    col = int(col[0])
+    neighbors = []
+
+    if row != 0 and parent.name != "down":
+        node_puzzle = parent_puzzle.copy()
+        node_puzzle[row][col] = node_puzzle[row - 1][col]
+        node_puzzle[row - 1][col] = 0
+        node = Node(name="up", puzzle=tuple(np.reshape(node_puzzle, (9,))), parent=parent)
+        neighbors.append(node)
+
+    if row != len(parent_puzzle) - 1 and parent.name != "up":
+        node_puzzle = parent_puzzle.copy()
+        node_puzzle[row][col] = node_puzzle[row + 1][col]
+        node_puzzle[row + 1][col] = 0
+        node = Node(name="down", puzzle=tuple(np.reshape(node_puzzle, (9,))), parent=parent)
+        neighbors.append(node)
+
+    if col != 0 and parent.name != "right":
+        node_puzzle = parent_puzzle.copy()
+        node_puzzle[row][col] = node_puzzle[row][col - 1]
+        node_puzzle[row][col - 1] = 0
+        node = Node(name="left", puzzle=tuple(np.reshape(node_puzzle, (9,))), parent=parent)
+        neighbors.append(node)
+
+    if col != len(parent_puzzle[0]) - 1 and parent.name != "left":
+        node_puzzle = parent_puzzle.copy()
+        node_puzzle[row][col] = node_puzzle[row][col + 1]
+        node_puzzle[row][col + 1] = 0
+        node = Node(name="right", puzzle=tuple(np.reshape(node_puzzle, (9,))), parent=parent)
+        neighbors.append(node)
+
+    return neighbors
+
+
+def solve(start, goal, heuristic):
+    solvable = is_solvable(initial_state)
+    if not solvable:
+        print(f"The puzzle {start} is NOT solvable.")
+        return False
+
+    start_time = time.time()
+    path = a_star(start, goal, heuristic)
+    end_time = time.time()
+
+    if path is False:
+        print("Something went wrong.")
+
+    print(f"The search took {end_time - start_time} seconds")
+    print_path(path)
+
+
+# initial_state = (7, 2, 4, 5, 0, 6, 8, 3, 1)
+initial_state = random_start_node()
+goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
+
+solve(initial_state, goal_state, count_misplaced_plus_manhattan)
