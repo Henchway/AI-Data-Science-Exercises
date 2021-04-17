@@ -6,6 +6,8 @@ import numpy as np
 
 
 class Node:
+    """Used to store tree information of the A* algorithm."""
+
     def __init__(self, name, puzzle, parent, heuristic=0):
         self.name = name
         self.puzzle = puzzle
@@ -23,12 +25,14 @@ class Node:
 
 
 def random_start_node():
+    """Generates a random potentially unsolvable initial start puzzle."""
     init = [x for x in range(0, 9)]
     random.shuffle(init)
     return tuple(init)
 
 
 def reconstruct_path(node):
+    """Reconstruct the path by going through the parent nodes."""
     steps = []
     while node.parent is not None:
         steps.append(node)
@@ -38,6 +42,7 @@ def reconstruct_path(node):
 
 
 def print_path(steps):
+    """Print the arrays of the path."""
     steps.reverse()
     print(f"The puzzle was solved in {len(steps) - 1} steps.")
     for step in steps:
@@ -47,6 +52,7 @@ def print_path(steps):
 
 
 def a_star(start, goal, heuristic):
+    """Based on the pseudo-code on Wikipedia: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode"""
     root = Node("root", start, None, heuristic=0)
     open_set = PriorityQueue()
 
@@ -67,12 +73,12 @@ def a_star(start, goal, heuristic):
                 neighbor.heuristic = g_score[neighbor] + heuristic(neighbor.puzzle, goal)
                 if not any((neighbor.heuristic, neighbor) in item for item in open_set.queue):
                     open_set.put((neighbor.heuristic, neighbor))
-
         open_set.task_done()
     return False
 
 
 def manhattan_distance(start, goal):
+    """Calculates the overall manhattan distance of the start node to the goal node."""
     distance = 0
     start = np.reshape(start, (3, 3))
     goal = np.reshape(goal, (3, 3))
@@ -85,6 +91,7 @@ def manhattan_distance(start, goal):
 
 
 def count_misplaced(start, goal):
+    """Counts the misplaced puzzle pieces."""
     misplaced = 0
     start = np.reshape(start, (3, 3))
     goal = np.reshape(goal, (3, 3))
@@ -96,6 +103,7 @@ def count_misplaced(start, goal):
 
 
 def count_misplaced_plus_manhattan(start, goal):
+    """Combines the manhattan distance with the misplaced puzzle pieces."""
     manhattan = manhattan_distance(start, goal)
     misplaced = count_misplaced(start, goal)
     return manhattan + misplaced
@@ -103,6 +111,7 @@ def count_misplaced_plus_manhattan(start, goal):
 
 def is_solvable(start) -> bool:
     """
+    Source: https://github.com/IsaacCheng9/8-puzzle-heuristic-search/blob/master/src/8_puzzle_specific.py
     Checks whether the 8-puzzle problem is solvable based on inversions.
     Args:
         start: The start state of the board input by the user.
