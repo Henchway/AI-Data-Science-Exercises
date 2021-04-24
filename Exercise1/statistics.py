@@ -1,3 +1,4 @@
+from datetime import date
 from time import time
 
 import jsonpickle
@@ -8,8 +9,8 @@ from astar import random_start_node, is_solvable, a_star, manhattan_distance, ha
 
 def initialize(runs):
     start_arrays = []
-    weights1 = np.arange(1.0, 0.5, -1 / (runs*2))
-    weights2 = np.arange(0., 0.5, 1 / (runs*2))
+    weights1 = np.arange(1.0, 0.5, -1 / (runs * 2))
+    weights2 = np.arange(0., 0.5, 1 / (runs * 2))
     combined_weights = list(zip(weights1, weights2))
 
     while len(start_arrays) != runs:
@@ -37,7 +38,7 @@ def start_run(start, weights, goal):
 
 
 def write_file(results, append):
-    with open(f"{append}_results.json", "w") as file:
+    with open(f"results_{append}_{date.today()}.json", "w") as file:
         frozen = jsonpickle.encode(results)
         file.write(frozen)
 
