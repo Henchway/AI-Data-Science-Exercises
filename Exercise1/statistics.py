@@ -8,8 +8,8 @@ from astar import random_start_node, is_solvable, a_star, manhattan_distance, ha
 
 def initialize(runs):
     start_arrays = []
-    weights1 = np.arange(1.0, 0.5, -1 / runs)
-    weights2 = np.arange(0., 0.5, 1 / runs)
+    weights1 = np.arange(1.0, 0.5, -1 / (runs*2))
+    weights2 = np.arange(0., 0.5, 1 / (runs*2))
     combined_weights = list(zip(weights1, weights2))
 
     while len(start_arrays) != runs:
@@ -43,8 +43,4 @@ def write_file(results, append):
 
 
 if __name__ == "__main__":
-    goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
-    combined_array = initialize(runs=10)
-    for item in combined_array:
-        print(start_run(start=item[0], weights=item[1], goal=goal_state))
-
+    pass
