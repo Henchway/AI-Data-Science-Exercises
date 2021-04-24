@@ -1,0 +1,5425 @@
+[
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/reduce": [
+                  {
+                    "py/type": "numpy.dtype"
+                  },
+                  {
+                    "py/tuple": [
+                      "f8",
+                      false,
+                      true
+                    ]
+                  },
+                  {
+                    "py/tuple": [
+                      3,
+                      "<",
+                      null,
+                      null,
+                      null,
+                      -1,
+                      -1,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 422,
+    "time_elapsed": 0.08999824523925781,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 491,
+    "time_elapsed": 0.10700082778930664,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 446,
+    "time_elapsed": 0.0840003490447998,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 530,
+    "time_elapsed": 0.10999941825866699,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 529,
+    "time_elapsed": 0.1269996166229248,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 530,
+    "time_elapsed": 0.1119999885559082,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 708,
+    "time_elapsed": 0.15199971199035645,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 836,
+    "time_elapsed": 0.167999267578125,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 1022,
+    "time_elapsed": 0.264998197555542,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        3,
+        1,
+        8,
+        6,
+        0,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 761,
+    "time_elapsed": 0.17000222206115723,
+    "depth": 16
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4886,
+    "time_elapsed": 2.0339972972869873,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6617,
+    "time_elapsed": 3.1540000438690186,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 9330,
+    "time_elapsed": 5.578999042510986,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 7801,
+    "time_elapsed": 3.9080004692077637,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 12139,
+    "time_elapsed": 8.248509883880615,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 10794,
+    "time_elapsed": 6.698001146316528,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 15184,
+    "time_elapsed": 12.658512115478516,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 15174,
+    "time_elapsed": 13.128997802734375,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 25102,
+    "time_elapsed": 33.99600028991699,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        4,
+        3,
+        0,
+        5,
+        6,
+        1,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 18475,
+    "time_elapsed": 21.12902522087097,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 1787,
+    "time_elapsed": 0.5129966735839844,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2048,
+    "time_elapsed": 0.5550007820129395,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3200,
+    "time_elapsed": 1.2049992084503174,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2244,
+    "time_elapsed": 0.5910017490386963,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3255,
+    "time_elapsed": 1.0519990921020508,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4518,
+    "time_elapsed": 1.824000358581543,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4980,
+    "time_elapsed": 1.935002326965332,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 12233,
+    "time_elapsed": 8.45750904083252,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 12405,
+    "time_elapsed": 9.191999912261963,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        5,
+        0,
+        8,
+        4,
+        1,
+        2,
+        7,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 11037,
+    "time_elapsed": 7.259510040283203,
+    "depth": 24
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 208,
+    "time_elapsed": 0.03399920463562012,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 287,
+    "time_elapsed": 0.04399919509887695,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 374,
+    "time_elapsed": 0.06600117683410645,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 856,
+    "time_elapsed": 0.16599798202514648,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 652,
+    "time_elapsed": 0.1400001049041748,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 1488,
+    "time_elapsed": 0.3470022678375244,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 1968,
+    "time_elapsed": 0.504002571105957,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2910,
+    "time_elapsed": 1.0999987125396729,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3181,
+    "time_elapsed": 0.9089987277984619,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        8,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4192,
+    "time_elapsed": 1.4350018501281738,
+    "depth": 21
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2040,
+    "time_elapsed": 0.6839983463287354,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2458,
+    "time_elapsed": 0.7069995403289795,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3542,
+    "time_elapsed": 1.0949997901916504,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 2437,
+    "time_elapsed": 0.7030003070831299,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3377,
+    "time_elapsed": 1.0010020732879639,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3892,
+    "time_elapsed": 1.4499990940093994,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6408,
+    "time_elapsed": 2.910998821258545,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6939,
+    "time_elapsed": 2.9430010318756104,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6788,
+    "time_elapsed": 3.352001667022705,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        4,
+        3,
+        0,
+        6,
+        1,
+        7,
+        2,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 7364,
+    "time_elapsed": 3.3529980182647705,
+    "depth": 22
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3860,
+    "time_elapsed": 1.1815094947814941,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6997,
+    "time_elapsed": 3.4860026836395264,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 5248,
+    "time_elapsed": 2.0669994354248047,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 11789,
+    "time_elapsed": 7.729510545730591,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 9281,
+    "time_elapsed": 5.373000860214233,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 11215,
+    "time_elapsed": 7.071998357772827,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 17224,
+    "time_elapsed": 16.967514753341675,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 24941,
+    "time_elapsed": 34.850996255874634,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 22801,
+    "time_elapsed": 32.29304838180542,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        0,
+        7,
+        4,
+        3,
+        8,
+        5,
+        2,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 21865,
+    "time_elapsed": 24.439322233200073,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3882,
+    "time_elapsed": 1.1315107345581055,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4552,
+    "time_elapsed": 1.6629984378814697,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4675,
+    "time_elapsed": 1.8530011177062988,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 9504,
+    "time_elapsed": 5.5040013790130615,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 8504,
+    "time_elapsed": 4.776000261306763,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 13900,
+    "time_elapsed": 10.806999921798706,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 21258,
+    "time_elapsed": 25.289999961853027,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 23858,
+    "time_elapsed": 34.83604717254639,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 40234,
+    "time_elapsed": 95.16956186294556,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        1,
+        7,
+        3,
+        2,
+        8,
+        6,
+        0,
+        5,
+        4
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 34681,
+    "time_elapsed": 49.781046867370605,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 3685,
+    "time_elapsed": 1.050421953201294,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4519,
+    "time_elapsed": 1.2669804096221924,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6185,
+    "time_elapsed": 2.736001491546631,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 7076,
+    "time_elapsed": 3.314000368118286,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 7677,
+    "time_elapsed": 3.7039990425109863,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 12705,
+    "time_elapsed": 9.039000749588013,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 14701,
+    "time_elapsed": 11.440000772476196,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 21553,
+    "time_elapsed": 25.342000246047974,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 23460,
+    "time_elapsed": 33.01155924797058,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        8,
+        7,
+        2,
+        0,
+        5,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 21070,
+    "time_elapsed": 21.809002161026,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 5241,
+    "time_elapsed": 1.9789981842041016,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6475,
+    "time_elapsed": 2.705000638961792,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 5362,
+    "time_elapsed": 1.8829987049102783,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 11911,
+    "time_elapsed": 7.967001914978027,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 11072,
+    "time_elapsed": 6.80600118637085,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 15465,
+    "time_elapsed": 12.918998718261719,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 20370,
+    "time_elapsed": 24.065001726150513,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 26755,
+    "time_elapsed": 38.427560329437256,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 35266,
+    "time_elapsed": 70.1365613937378,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        6,
+        7,
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        8
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 33874,
+    "time_elapsed": 47.52688908576965,
+    "depth": 26
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA8D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAAAAA="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 5227,
+    "time_elapsed": 1.6689996719360352,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 4858,
+    "time_elapsed": 1.4510245323181152,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 6307,
+    "time_elapsed": 2.7150018215179443,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 10377,
+    "time_elapsed": 6.093998908996582,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 8146,
+    "time_elapsed": 3.9920005798339844,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AQAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "AAAAAAAA4D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 12340,
+    "time_elapsed": 8.871999502182007,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "nJmZmZmZ2T8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NDMzMzMz4z8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 18496,
+    "time_elapsed": 20.55402421951294,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "NjMzMzMz0z8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "Z2ZmZmZm5j8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 20073,
+    "time_elapsed": 19.546537160873413,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "oJmZmZmZyT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "mpmZmZmZ6T8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 29049,
+    "time_elapsed": 35.83550667762756,
+    "depth": 25
+  },
+  {
+    "array": {
+      "py/tuple": [
+        7,
+        4,
+        8,
+        0,
+        1,
+        5,
+        2,
+        3,
+        6
+      ]
+    },
+    "weights": [
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "qJmZmZmZuT8="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "py/reduce": [
+          {
+            "py/function": "numpy.core.multiarray.scalar"
+          },
+          {
+            "py/tuple": [
+              {
+                "py/id": 4
+              },
+              {
+                "py/b64": "zczMzMzM7D8="
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "expanded_nodes": 21886,
+    "time_elapsed": 19.390408039093018,
+    "depth": 25
+  }
+]
