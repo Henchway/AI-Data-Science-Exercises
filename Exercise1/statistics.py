@@ -9,8 +9,8 @@ from astar import random_start_node, is_solvable, a_star, manhattan_distance, ha
 
 def initialize(runs):
     start_arrays = []
-    weights1 = np.arange(1.0, 0.5, -1 / (runs * 2))
-    weights2 = np.arange(0., 0.5, 1 / (runs * 2))
+    weights1 = np.arange(1.0, 0.5, -1 / 50)
+    weights2 = np.arange(0., 0.5, 1 / 50)
     combined_weights = list(zip(weights1, weights2))
 
     while len(start_arrays) != runs:

@@ -16,6 +16,6 @@ def process_array(array_with_weights, runs):
 
 
 if __name__ == "__main__":
-    runs = 10
+    runs = 2
     work_to_do = initialize(runs)
     process_array(work_to_do, runs)
