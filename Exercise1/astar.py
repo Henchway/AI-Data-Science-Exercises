@@ -31,14 +31,14 @@ def random_start_node():
     return tuple(init)
 
 
-def reconstruct_path(node):
+def reconstruct_path(node, expanded_nodes):
     """Reconstruct the path by going through the parent nodes."""
     steps = []
     while node.parent is not None:
         steps.append(node)
         node = node.parent
     steps.append(node)
-    return steps
+    return steps, expanded_nodes
 
 
 def print_path(steps):
@@ -51,28 +51,35 @@ def print_path(steps):
         print("===========")
 
 
-def a_star(start, goal, heuristic):
+def a_star(start, goal, heuristics, weights):
     """Based on the pseudo-code on Wikipedia: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode"""
+
     root = Node("root", start, None, heuristic=0)
     open_set = PriorityQueue()
+    expanded_nodes = 1
 
     g_score = {root: 0}
-    root.heuristic = g_score[root] + heuristic(root.puzzle, goal)
+    root.heuristic = g_score[root] + combine_heuristics(start=root.puzzle, goal=goal, heuristics=heuristics,
+                                                        weights=weights)
     open_set.put((root.heuristic, root))
 
     while open_set.qsize() > 0:
         current = open_set.get()[1]
         if current.puzzle == goal:
-            return reconstruct_path(current)
+            return reconstruct_path(current, expanded_nodes)
 
         neighbors = get_neighbors(current)
         for neighbor in neighbors:
             tentative_g_score = g_score[current] + 1
             if tentative_g_score < g_score.get(neighbor, float('inf')):
                 g_score[neighbor] = tentative_g_score
-                neighbor.heuristic = g_score[neighbor] + heuristic(neighbor.puzzle, goal)
+                neighbor.heuristic = g_score[neighbor] + combine_heuristics(start=neighbor.puzzle, goal=goal,
+                                                                            heuristics=heuristics,
+                                                                            weights=weights)
                 if not any((neighbor.heuristic, neighbor) in item for item in open_set.queue):
                     open_set.put((neighbor.heuristic, neighbor))
+                    expanded_nodes += 1
+
         open_set.task_done()
     return False
 
@@ -90,7 +97,7 @@ def manhattan_distance(start, goal):
     return int(distance)
 
 
-def count_misplaced(start, goal):
+def hamming_distance(start, goal):
     """Counts the misplaced puzzle pieces."""
     misplaced = 0
     start = np.reshape(start, (3, 3))
@@ -102,11 +109,14 @@ def count_misplaced(start, goal):
     return misplaced
 
 
-def count_misplaced_plus_manhattan(start, goal):
+def combine_heuristics(start, goal, heuristics, weights):
     """Combines the manhattan distance with the misplaced puzzle pieces."""
-    manhattan = manhattan_distance(start, goal)
-    misplaced = count_misplaced(start, goal)
-    return manhattan + misplaced
+
+    total = 0
+    for i, heuristic in enumerate(heuristics):
+        total += int(weights[i] * heuristic(start, goal))
+
+    return total
 
 
 def is_solvable(start) -> bool:
@@ -118,7 +128,6 @@ def is_solvable(start) -> bool:
     Returns:
         Whether the 8-puzzle problem is solvable.
     """
-
     start = np.reshape(start, (3, 3))
     k = start[start != 0]
     num_inversions = sum(
@@ -166,25 +175,27 @@ def get_neighbors(parent):
     return neighbors
 
 
-def solve(start, goal, heuristic):
+def solve(start, goal, heuristics, weights):
     solvable = is_solvable(initial_state)
     if not solvable:
         print(f"The puzzle {start} is NOT solvable.")
         return False
 
     start_time = time.time()
-    path = a_star(start, goal, heuristic)
+    path, expanded_nodes = a_star(start=start, goal=goal, heuristics=heuristics, weights=weights)
     end_time = time.time()
 
     if path is False:
         print("Something went wrong.")
 
     print(f"The search took {end_time - start_time} seconds")
+    print(f"The number of expanded nodes is: {expanded_nodes}")
     print_path(path)
 
+if __name__ == '__main__':
+    # initial_state = (7, 2, 4, 5, 0, 6, 8, 3, 1)
+    initial_state = (0, 7, 2, 3, 1, 4, 8, 5, 6)
+    # initial_state = random_start_node()
+    goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
 
-# initial_state = (7, 2, 4, 5, 0, 6, 8, 3, 1)
-initial_state = random_start_node()
-goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
-
-solve(initial_state, goal_state, count_misplaced_plus_manhattan)
+    solve(start=initial_state, goal=goal_state, heuristics=[manhattan_distance, hamming_distance], weights=[0.8, 0.2])
