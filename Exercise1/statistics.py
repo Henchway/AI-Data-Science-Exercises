@@ -16,7 +16,10 @@ def initialize(runs):
     while len(start_arrays) != runs:
         start_node = random_start_node()
         if is_solvable(start_node):
-            start_arrays.append(start_node)
+            try:
+                start_arrays.index(start_node)
+            except ValueError:
+                start_arrays.append(start_node)
 
     combined_array = []
 
