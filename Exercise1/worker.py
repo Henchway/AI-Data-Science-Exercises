@@ -1,4 +1,5 @@
 import multiprocessing as mp
+from datetime import datetime
 
 from statistics import start_run, write_file, initialize
 
@@ -17,5 +18,13 @@ def process_array(array_with_weights, runs):
 
 if __name__ == "__main__":
     runs = 50
+
+    start_time = datetime.now()
+    print(f"Start: {start_time}")
+
     work_to_do = initialize(runs)
     process_array(work_to_do, runs)
+
+    end_time = datetime.now()
+    print(f"End: {end_time}")
+    print(f"Duration: {end_time - start_time}")
