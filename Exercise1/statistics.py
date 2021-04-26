@@ -21,7 +21,7 @@ def initialize(runs):
             except ValueError:
                 start_arrays.append(start_node)
 
-    return [[array, weights] for weights in combined_weights for array in start_arrays]
+    return [[array, weights] for array in start_arrays for weights in combined_weights]
 
 
 def start_run(start, weights, goal):
