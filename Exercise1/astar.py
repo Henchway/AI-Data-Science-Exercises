@@ -112,11 +112,11 @@ def hamming_distance(start, goal):
 def combine_heuristics(start, goal, heuristics, weights):
     """Combines the manhattan distance with the misplaced puzzle pieces."""
 
-    total = 0
+    total = 0.0
     for i, heuristic in enumerate(heuristics):
-        total += int(weights[i] * heuristic(start, goal))
+        total += weights[i] * heuristic(start, goal)
 
-    return total
+    return float(total)
 
 
 def is_solvable(start) -> bool:
@@ -191,6 +191,7 @@ def solve(start, goal, heuristics, weights):
     print(f"The search took {end_time - start_time} seconds")
     print(f"The number of expanded nodes is: {expanded_nodes}")
     print_path(path)
+
 
 if __name__ == '__main__':
     # initial_state = (7, 2, 4, 5, 0, 6, 8, 3, 1)
