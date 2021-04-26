@@ -11,7 +11,7 @@ def initialize(runs):
     start_arrays = []
     weights1 = np.arange(1.0, 0.5, -1 / 50)
     weights2 = np.arange(0., 0.5, 1 / 50)
-    combined_weights = list(zip(weights1, weights2))
+    combined_weights = zip(weights1, weights2)
 
     while len(start_arrays) != runs:
         start_node = random_start_node()
@@ -34,9 +34,9 @@ def start_run(start, weights, goal):
     start_time = time()
     path, expanded_nodes = a_star(start=start, goal=goal,
                                   heuristics=[manhattan_distance, hamming_distance],
-                                  weights=list(weights))
+                                  weights=weights)
     end_time = time()
-    return {"array": start, "weights": list(weights), "expanded_nodes": expanded_nodes,
+    return {"array": start, "weights": weights, "expanded_nodes": expanded_nodes,
             "time_elapsed": end_time - start_time, "depth": len(path) - 1}
 
 
