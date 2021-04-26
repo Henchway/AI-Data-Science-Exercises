@@ -1,3 +1,4 @@
+import itertools
 from datetime import date
 from time import time
 
@@ -21,7 +22,7 @@ def initialize(runs):
             except ValueError:
                 start_arrays.append(start_node)
 
-    return [[array, weights] for array in start_arrays for weights in combined_weights]
+    return [element for element in itertools.product(start_arrays, combined_weights)]
 
 
 def start_run(start, weights, goal):
