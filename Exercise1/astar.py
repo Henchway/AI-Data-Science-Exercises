@@ -101,11 +101,6 @@ def a_star(start, goal, heuristics, weights):
         current = open_set.get()[1]  # Retrieve first item and extract the node from the tuple
         if current.puzzle == goal:
             return current, root
-            # path = reconstruct_path(current)
-            # visited_nodes = len(root)
-            # expanded_nodes = calculate_expanded_nodes(root)
-            # branching_factor = calculate_branching_factor(visited_nodes=visited_nodes, expanded_nodes=expanded_nodes)
-            # return path, visited_nodes, expanded_nodes, branching_factor
         neighbors = get_neighbors(current)
         for neighbor in neighbors:
             current.children.append(neighbor)
@@ -275,9 +270,7 @@ def solve(start, goal, heuristics, weights):
 
 
 if __name__ == '__main__':
-    # initial_state = (7, 2, 4, 5, 0, 6, 8, 3, 1)
     initial_state = (2, 4, 0, 5, 6, 1, 8, 7, 3)
-    # initial_state = random_start_node()
     goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
 
     solve(start=initial_state, goal=goal_state, heuristics=[manhattan_distance, hamming_distance], weights=[1.0, 0.0])
