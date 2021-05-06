@@ -12,7 +12,7 @@ class Node:
         self.name = name
         self.puzzle = puzzle
         self.parent = parent
-        self.children = []
+        self.children = children
         self.heuristic = heuristic
 
     def __lt__(self, other):
