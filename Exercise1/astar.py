@@ -129,6 +129,24 @@ def manhattan_distance(start, goal):
 
 
 def build_position_matrix(matrix):
+    """Converts a matrix into a position vector, which represents where an element is found when converting the matrix into a vector.
+
+    Args:
+        matrix (np.array): An array of n*m shape. It has to be two dimensional and n = m.
+
+    Returns:
+        np.array: Returns a vector which displays where in the elements would be found in a reshaped (n*m, 1) matrix.
+
+
+    Example: 
+    The input `[[3,0], [2,1]]` gets converted into `[3,0,2,1]` and the function will return the position of the elements relative to the index in the array.
+    Element 0 is found at position 1.
+    Element 1 is found at position 3.
+    Element 2 is found at position 2.
+    Element 3 is found at position 0.
+    So this function would return: [1,3,2,0]
+    """
+
     n, m = np.shape(matrix)
     nn = n * n
     pos_matrix = np.empty(nn, dtype=int)
