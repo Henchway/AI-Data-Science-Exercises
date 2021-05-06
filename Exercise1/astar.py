@@ -125,13 +125,7 @@ def manhattan_distance(start, goal):
     goal = np.reshape(goal, (3, 3))
     pos_matrix1 = build_position_matrix(start)
     pos_matrix2 = build_position_matrix(goal)
-    n = pos_matrix1.shape
-    x_init_pos, y_init_pos = pos_matrix1 % n, pos_matrix1 // n
-    x_goal_pos, y_goal_pos = pos_matrix2 % n, pos_matrix2 // n
-    distance_x = np.abs(x_goal_pos - x_init_pos)
-    distance_y = np.abs(y_goal_pos - y_init_pos)
-    distance = distance_x + distance_y
-    return np.sum(distance)
+    return np.sum(np.abs(pos_matrix1 - pos_matrix2))
 
 
 def build_position_matrix(matrix):
