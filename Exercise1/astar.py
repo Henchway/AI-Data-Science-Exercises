@@ -1,4 +1,3 @@
-import random
 import time
 from queue import PriorityQueue
 
@@ -34,13 +33,6 @@ class Node:
             return visited_nodes
 
         return 1 + visited_nodes_recursion(self)
-
-
-def random_start_node():
-    """Generates a random potentially unsolvable initial start puzzle."""
-    init = [x for x in range(0, 9)]
-    random.shuffle(init)
-    return tuple(init)
 
 
 def expanded_nodes_recursion(node: Node):
@@ -281,8 +273,11 @@ def solve(start, goal, heuristics, weights):
         print_path(path)
 
 
-if __name__ == '__main__':
+def main():
     initial_state = (2, 4, 0, 5, 6, 1, 8, 7, 3)
     goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
-
     solve(start=initial_state, goal=goal_state, heuristics=[manhattan_distance, hamming_distance], weights=[1.0, 0.0])
+
+
+if __name__ == '__main__':
+    main()
