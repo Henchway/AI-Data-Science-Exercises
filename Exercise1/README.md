@@ -9,6 +9,7 @@ A python3 implementation to calculate solutions for the 8 puzzle using the A* al
 * Modules
 * Heuristics
 * Functions
+* Testing ideas
 
 ## General Info
 
@@ -30,6 +31,8 @@ have to be calculated and displayed:
 ## Modules
 
 * numpy
+* pandas
+* matplotlib.pyplot
 * PriorityQueue
 * random
 * time
@@ -37,8 +40,6 @@ have to be calculated and displayed:
 * jsonpickle
 * datetime
 * itertools
-* matplotlib.pyplot
-* pandas
 
 ## Heuristics
 
