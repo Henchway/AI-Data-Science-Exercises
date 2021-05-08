@@ -111,39 +111,46 @@ def a_star(start, goal, heuristics, weights):
 def manhattan_distance(start, goal):
     """
     Calculates the distance of the elements in the matrix.
-    Only works for numbers. Make sure that any number occurs only once per matrix.
     """
+    distance = 0
     start = np.reshape(start, (3, 3))
     goal = np.reshape(goal, (3, 3))
-    pos_matrix1 = build_position_matrix(start)
-    pos_matrix2 = build_position_matrix(goal)
-    return np.sum(np.abs(pos_matrix1 - pos_matrix2))
+    for i, array in enumerate(start):
+        for j, number in enumerate(array):
+            (row, column) = np.where(goal == number)
+            distance += abs(i - row) + abs(j - column)
+    return int(distance)
+    # start = np.reshape(start, (3, 3))
+    # goal = np.reshape(goal, (3, 3))
+    # pos_matrix1 = build_position_matrix(start)
+    # pos_matrix2 = build_position_matrix(goal)
+    # return np.sum(np.abs(pos_matrix1 - pos_matrix2))
 
 
-def build_position_matrix(matrix):
-    """Converts a matrix into a position vector, which represents where an element is found when converting the matrix into a vector.
-
-    Args:
-        matrix (np.array): An array of n*m shape. It has to be two dimensional and n = m.
-
-    Returns:
-        np.array: Returns a vector which displays where in the elements would be found in a reshaped (n*m, 1) matrix.
-
-
-    Example: 
-    The input `[[3,0], [2,1]]` gets converted into `[3,0,2,1]` and the function will return the position of the elements relative to the index in the array.
-    Element 0 is found at position 1.
-    Element 1 is found at position 3.
-    Element 2 is found at position 2.
-    Element 3 is found at position 0.
-    So this function would return: [1,3,2,0]
-    """
-
-    n, m = np.shape(matrix)
-    nn = n * n
-    pos_matrix = np.empty(nn, dtype=int)
-    pos_matrix[matrix.reshape(nn)] = np.arange(nn)
-    return pos_matrix
+# def build_position_matrix(matrix):
+#     """Converts a matrix into a position vector, which represents where an element is found when converting the matrix into a vector.
+#
+#     Args:
+#         matrix (np.array): An array of n*m shape. It has to be two dimensional and n = m.
+#
+#     Returns:
+#         np.array: Returns a vector which displays where in the elements would be found in a reshaped (n*m, 1) matrix.
+#
+#
+#     Example:
+#     The input `[[3,0], [2,1]]` gets converted into `[3,0,2,1]` and the function will return the position of the elements relative to the index in the array.
+#     Element 0 is found at position 1.
+#     Element 1 is found at position 3.
+#     Element 2 is found at position 2.
+#     Element 3 is found at position 0.
+#     So this function would return: [1,3,2,0]
+#     """
+#
+#     n, m = np.shape(matrix)
+#     nn = n * n
+#     pos_matrix = np.empty(nn, dtype=int)
+#     pos_matrix[matrix.reshape(nn)] = np.arange(nn)
+#     return pos_matrix
 
 
 def hamming_distance(start, goal):
@@ -274,7 +281,7 @@ def solve(start, goal, heuristics, weights):
 
 
 def main():
-    initial_state = (2, 4, 0, 5, 6, 1, 8, 7, 3)
+    initial_state = (8, 7, 6, 0, 4, 1, 2, 5, 3)
     goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
     solve(start=initial_state, goal=goal_state, heuristics=[manhattan_distance, hamming_distance], weights=[1.0, 0.0])
 
