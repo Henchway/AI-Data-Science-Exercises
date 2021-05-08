@@ -11,6 +11,7 @@ class Node:
     def __init__(self, name, puzzle, parent, children, heuristic=0):
         self.name: str = name
         self.puzzle: tuple = puzzle
+        self.__puzzle_hash__ = hash(puzzle)
         self.parent: Node = parent
         self.children: List[Node] = children
         self.heuristic: int = heuristic
@@ -18,8 +19,8 @@ class Node:
     def __lt__(self, other):
         return self.heuristic < other.heuristic
 
-    def __eq__(self, other):
-        return self.__class__ == other.__class__ and self.puzzle == other.puzzle
+    def __eq__(self, other: "Node"):
+        return self.__puzzle_hash__ == other.__puzzle_hash__
 
     def __hash__(self):
         return hash(self.puzzle)
