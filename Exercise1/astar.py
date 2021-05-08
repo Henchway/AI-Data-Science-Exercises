@@ -246,7 +246,7 @@ def solve(start, goal, heuristics, weights):
     Checks if the given puzzle is solveable and if so, proceeds to calculate astar,
     then prints metrics as well as the chosen path.
     """
-    solvable = is_solvable(initial_state)
+    solvable = is_solvable(start)
     if not solvable:
         print(f"The puzzle {start} is NOT solvable.")
         return False
