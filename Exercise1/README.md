@@ -1,6 +1,6 @@
 # 8 Puzzle
 
-A python3 implementation to calculate solutions for the 8 puzzle using the A* algorithm  
+A python3 implementation to calculate solutions for the 8 puzzle using the A* algorithm
 
 ## Table of Contents
 
@@ -9,24 +9,30 @@ A python3 implementation to calculate solutions for the 8 puzzle using the A* al
 * Modules
 * Heuristics
 * Functions
+* Testing ideas
 
 ## General Info
 
-This project is the first exercise of the study course Introduction to AI and Data Science. By using a A* algorithm and two different heuristic functions a random generated 8 puzzle has to be solved (if solvable). The following parameters have to be calculated and displayed:  
+This project is the first exercise of the study course Introduction to AI and Data Science. By using a A* algorithm and
+two different heuristic functions a random generated 8 puzzle has to be solved (if solvable). The following parameters
+have to be calculated and displayed:
+
 * Branching factor
 * expanded nodes
-* weighting of the heuristic functions  
+* weighting of the heuristic functions
 
 ## Team Members
 
 * Thomas Scheibelhofer
 * Harrys Luigi Maria Kavan
 * Dominik Hackl
-* Matthias Schmid-Kietreiber  
+* Matthias Schmid-Kietreiber
 
 ## Modules
 
 * numpy
+* pandas
+* matplotlib.pyplot
 * PriorityQueue
 * random
 * time
@@ -34,26 +40,31 @@ This project is the first exercise of the study course Introduction to AI and Da
 * jsonpickle
 * datetime
 * itertools
-* matplotlib.pyplot
-* pandas  
 
 ## Heuristics
 
-The Requirement of the exercise was to use at least two heuristics and to use them on their own and use them combined. The following heuristic functions have been chosen:  
+The Requirement of the exercise was to use at least two heuristics and to use them on their own and use them combined.
+The following heuristic functions have been chosen:
 
-* **Manhattan Distance :** For each cell of the puzzle the distance to their goal state is calculated.  
-* **Hemming Distance:** Calculates the number of misplaced puzzle pieces.  
+* **Manhattan Distance :** For each cell of the puzzle the distance to their goal state is calculated.
+* **Hemming Distance:** Calculates the number of misplaced puzzle pieces.
 
 ## Files
 
 * astar.py
 * worker.py
-* statistics.py
 * analytics.ipynb
 
-## astar.py functions and classes
+## astar.py
 
-### class Node
+### Usage
+
+The astar.py executes the A* algorithm and prints the results including some statistics, it can be used standalone with
+a hardcoded start-puzzle and goal-puzzle which can be set in the main method.
+
+### Functions and classes
+
+#### class Node
 
 * **init(self, name, puzzle, parent, children, heuristic=0)**: initializes the node
 * **lt(self, other)**: returns a boolean if the heuristic value between nodes differs
@@ -61,97 +72,119 @@ The Requirement of the exercise was to use at least two heuristics and to use th
 * **hash(self)**: returns a hash value of the puzzle
 * **len(self)**: returns the visited nodes for all children of the node
 
-### random_start_node()
+#### expanded_nodes_recursion(node: Node)
 
-This function creates a random start node for the puzzle  
+This function calculates the number child nodes of the child of the node.
 
-### expanded_nodes_recursion(node: Node)
+#### calculate_expanded_nodes(root: Node)
 
-This function calculates the number child nodes of the child of the node 
+This function calculates the number of nodes which have child nodes.
 
-### calculate_expanded_nodes(root: Node)
+#### calculate_branching_factor(visited_nodes, expanded_nodes)
 
-This function calculates the number of nodes which have child nodes
+This function calculates the branching factor of the tree traversed in the algorithm.
 
-### calculate_branching_factor(visited_nodes, expanded_nodes)
+#### reconstruct_path(node, expanded_nodes)
 
-This function calculates the branching factor of the tree traversed in the algorithm
+This function reconstructs the path by going through the parent nodes.
 
-### reconstruct_path(node, expanded_nodes)
+#### print_path(steps)
 
-This function reconstructs the path by going through the parent nodes.  
+Prints the traversed nodes which lead to the solution.
 
-### print_path(steps)
+#### a_star(start, goal, heuristics, weights)
 
-Prints the traversed nodes which lead to the solution.  
+This function implements the A* algorithm and is based on the pseudocode found on Wikipedia and pushes the neighbor
+nodes of the current node into a priority queue in which they are prioritized by their costs calculated by the heuristic
+functions. When the node on top of the queue is the goal node the solution has been found.
 
-### a_star(start, goal, heuristics, weights)
+#### manhattan_distance(start, goal)
 
-This function implements the A* algorithm and is based on the pseudo code found on Wikipedia and pushes the neighbor nodes of the current node into a priority queue in which they are prioritized by their costs calculated by the heuristic functions. When the node on top of the queue is the goal node the solution has been found.
+This function calculates the sum of the distances of each puzzle piece to its goal state.
 
+#### build_position_matrix(matrix)
 
-### manhattan_distance(start, goal)
+Converts a matrix into a position vector, which represents where an element is found when converting the matrix into a
+vector.
 
-This function calculates the sum of the distances of each puzzle piece to its goal state.  
+#### hamming_distance(start, goal)
 
-### build_position_matrix(matrix)
+This function calculates the number of misplaced puzzle pieces.
 
-This function transforms a tupel into a numpy array 
+#### combine_heuristics(start, goal, heuristics, weights)
 
-### hamming_distance(start, goal)
+This function combines heuristics based on a weighted factor.
 
-This function calculates the number of misplaced puzzle pieces.  
+#### is_solvable(start)
 
-### combine_heuristics(start, goal, heuristics, weights)
+This function checks whether the puzzle is solvable based on inversions.
 
-This function combines heuristics based on a weighted factor
+#### get_neighbors(parent)
 
-### is_solvable(start)
+This function is used in the a_star function and calculates the neighbors of the puzzle based on it's current position
+of its pieces.
 
-This function checks whether the puzzle is solvable based on inversions.  
+#### generate_metrics(current, root)
 
-### get_neighbors(parent)
+This function generates metrics calculated during calculation of the solution of the puzzle.
 
-This function is used in the a_star function and calculates the neighbors of the puzzle based on it's current position of its pieces.  
+#### solve(start, goal, heuristics, weights)
 
-### generate_metrics(current, root)
+This function is the main function of the program and uses the is_solvable, the a_star and the print_path functions to
+solve the 8 puzzle and returns if the puzzle is solvable and if it is the time taken, the expanded nodes and the path to
+the solution.
 
-This function generates metrics calculated during calculation of the solution of the puzzle
+## worker.py
 
-### solve(start, goal, heuristics, weights)
+To enable the computing of many puzzle solutions needed for the analysis in a reasonable time, this script introduces
+multiprocessing.
 
-This function is the main function of the program and uses the is_solvable, the a_star and the print_path functions to solve the 8 puzzle and returns if the puzzle is solvable and if it is the time taken, the expanded nodes and the path to the solution.  
+### Usage
 
-## statistics.py methods
+This script can be executed standalone (with dependencies on astar.py) and takes only amount of examples to generate as
+input, the results are then persisted to the file system and can be used as input for analysis.
 
-Created for the purpose of finding the best weight ratio of used heuristics with the help of statistical calculations
+### Functions
 
-### initialize(number_of_examples)
+#### compute(data)
 
-This function creates sets of puzzle tuples with 31 different weights per tupple
+Used by the multiprocessing, generates the results of the start_run function.
 
+#### process_array(array_with_weights, runs)
 
-### start_run(start, weights, heuristics, goal)
+This function creates processes with the help of the module multiprocessing and maps the A* algorithm result into a
+combined result of all runs.
 
-Function that uses the A* parameter with the given parameters
+#### initialize(number_of_examples)
 
-### write_file(results, append)
+This function creates sets of puzzle tuples with 31 different weights per tuple.
 
-Saves the results in json format on the local file system
+#### start_run(start, weights, heuristics, goal)
 
-## worker.py methods
+Function that uses the A* parameter with the given parameters.
 
-To enable the computing of many different puzzle solutions, needed for the statistical methods, in a reasonable time multithreading is introduced in this script
+#### write_file(results, append)
 
-### compute(data)
+Saves the results in json format on the local file system.
 
-returns the start_run function defined in the statistics.py
+#### random_start_node()
 
-### process_array(array_with_weights, runs)
-
-This function creates threads with the help of the module multiprocessing and maps the A* algorithm, and the created examples in the statistics.py onto threads
+This function creates a random start node for the puzzle.
 
 ## analytics.ipynb
 
-This jupiter-notebook visualizes the results of the statistical methods to find the best weight ratio of the heuristics
+This jupiter-notebook visualizes the results of the statistical methods to find the best weight ratio for the
+heuristics.
 
+## Testing Ideas:
+
+### Unit testing:
+
+- Assert that known numbers of misplaced tiles are calculated correctly by ‘hamming_distance’.
+- Assert that known manhattan distance is calculated correctly by ‘manhattan_distance’.
+
+### End-to-End testing:
+
+- Assert that known solvable solutions are true for `is_solvable`.
+- Assert that known unsolvable solutions are false for `is_solvable`.
+- Assert that known solution has the correct depth for `solve`. 

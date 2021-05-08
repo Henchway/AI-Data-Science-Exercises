@@ -1,4 +1,3 @@
-import random
 import time
 from queue import PriorityQueue
 
@@ -12,7 +11,7 @@ class Node:
         self.name = name
         self.puzzle = puzzle
         self.parent = parent
-        self.children = []
+        self.children = children
         self.heuristic = heuristic
 
     def __lt__(self, other):
@@ -34,13 +33,6 @@ class Node:
             return visited_nodes
 
         return 1 + visited_nodes_recursion(self)
-
-
-def random_start_node():
-    """Generates a random potentially unsolvable initial start puzzle."""
-    init = [x for x in range(0, 9)]
-    random.shuffle(init)
-    return tuple(init)
 
 
 def expanded_nodes_recursion(node: Node):
@@ -119,7 +111,6 @@ def a_star(start, goal, heuristics, weights):
 def manhattan_distance(start, goal):
     """
     Calculates the distance of the elements in the matrix.
-    Only works for numbers. Make sure that any number occurs only once per matrix.
     """
     m = 3
     start = np.reshape(start, (m, m))
@@ -258,7 +249,7 @@ def solve(start, goal, heuristics, weights):
     Checks if the given puzzle is solveable and if so, proceeds to calculate astar,
     then prints metrics as well as the chosen path.
     """
-    solvable = is_solvable(initial_state)
+    solvable = is_solvable(start)
     if not solvable:
         print(f"The puzzle {start} is NOT solvable.")
         return False
@@ -285,8 +276,11 @@ def solve(start, goal, heuristics, weights):
         print_path(path)
 
 
-if __name__ == '__main__':
-    initial_state = (2, 4, 0, 5, 6, 1, 8, 7, 3)
+def main():
+    initial_state = (8, 7, 6, 0, 4, 1, 2, 5, 3)
     goal_state = (0, 1, 2, 3, 4, 5, 6, 7, 8)
-
     solve(start=initial_state, goal=goal_state, heuristics=[manhattan_distance, hamming_distance], weights=[1.0, 0.0])
+
+
+if __name__ == '__main__':
+    main()
