@@ -1,5 +1,6 @@
+import heapq
 import time
-from queue import PriorityQueue
+from typing import List
 
 import numpy as np
 
@@ -8,11 +9,11 @@ class Node:
     """Used to store tree information of the A* algorithm."""
 
     def __init__(self, name, puzzle, parent, children, heuristic=0):
-        self.name = name
-        self.puzzle = puzzle
-        self.parent = parent
-        self.children = children
-        self.heuristic = heuristic
+        self.name: str = name
+        self.puzzle: tuple = puzzle
+        self.parent: Node = parent
+        self.children: List[Node] = children
+        self.heuristic: int = heuristic
 
     def __lt__(self, other):
         return self.heuristic < other.heuristic
@@ -81,15 +82,16 @@ def a_star(start, goal, heuristics, weights):
     """Based on the pseudo-code on Wikipedia: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode"""
 
     root = Node(name="root", puzzle=start, parent=None, children=[], heuristic=0)
-    open_set = PriorityQueue()
+    open_set = []
+    heapq.heapify(open_set)
 
     g_score = {root: 0}
     root.heuristic = g_score[root] + combine_heuristics(start=root.puzzle, goal=goal, heuristics=heuristics,
                                                         weights=weights)
-    open_set.put((root.heuristic, root))
+    heapq.heappush(open_set, (root.heuristic, root))
 
-    while open_set.qsize() > 0:
-        current = open_set.get()[1]  # Retrieve first item and extract the node from the tuple
+    while len(open_set) > 0:
+        current = heapq.heappop(open_set)[1]  # Retrieve first item and extract the node from the tuple
         if current.puzzle == goal:
             return current, root
         neighbors = get_neighbors(current)
@@ -101,9 +103,10 @@ def a_star(start, goal, heuristics, weights):
                 neighbor.heuristic = g_score[neighbor] + combine_heuristics(start=neighbor.puzzle, goal=goal,
                                                                             heuristics=heuristics,
                                                                             weights=weights)
-                if not any((neighbor.heuristic, neighbor) in item for item in open_set.queue):
-                    open_set.put((neighbor.heuristic, neighbor))
-        open_set.task_done()
+
+                if not (neighbor.heuristic, neighbor) in open_set:
+                    heapq.heappush(open_set, (neighbor.heuristic, neighbor))
+        # open_set.task_done()
     return False
 
 
@@ -117,10 +120,10 @@ def manhattan_distance(start, goal):
     pos_matrix_start = build_position_matrix(start)
     pos_matrix_goal = build_position_matrix(goal)
 
-    xStartPos, yStartPos = pos_matrix_start % m, pos_matrix_start // m
-    xGoalPos, yGoalPos = pos_matrix_goal % m, pos_matrix_goal // m
+    x_start_pos, y_start_pos = pos_matrix_start % m, pos_matrix_start // m
+    x_goal_pos, y_goal_pos = pos_matrix_goal % m, pos_matrix_goal // m
 
-    return np.sum(np.abs(xStartPos-xGoalPos) + np.abs(yStartPos - yGoalPos))
+    return np.sum(np.abs(x_start_pos - x_goal_pos) + np.abs(y_start_pos - y_goal_pos))
 
 
 def build_position_matrix(matrix):
@@ -146,6 +149,20 @@ def build_position_matrix(matrix):
     pos_matrix = np.empty(nn, dtype=int)
     pos_matrix[matrix.reshape(nn)] = np.arange(nn)
     return pos_matrix
+
+
+@DeprecationWarning
+def manhattan_iterative(start, goal):
+    distance = 0
+    distance = 0
+    start = np.reshape(start, (3, 3))
+    goal = np.reshape(goal, (3, 3))
+    pos_matrix1 = build_position_matrix
+    for i, array in enumerate(start):
+        for j, number in enumerate(array):
+            (row, column) = np.where(goal == number)
+            distance += abs(i - row) + abs(j - column)
+    return int(distance)
 
 
 def hamming_distance(start, goal):
