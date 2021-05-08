@@ -121,11 +121,16 @@ def manhattan_distance(start, goal):
     Calculates the distance of the elements in the matrix.
     Only works for numbers. Make sure that any number occurs only once per matrix.
     """
-    start = np.reshape(start, (3, 3))
-    goal = np.reshape(goal, (3, 3))
-    pos_matrix1 = build_position_matrix(start)
-    pos_matrix2 = build_position_matrix(goal)
-    return np.sum(np.abs(pos_matrix1 - pos_matrix2))
+    m = 3
+    start = np.reshape(start, (m, m))
+    goal = np.reshape(goal, (m, m))
+    pos_matrix_start = build_position_matrix(start)
+    pos_matrix_goal = build_position_matrix(goal)
+
+    xStartPos, yStartPos = pos_matrix_start % m, pos_matrix_start // m
+    xGoalPos, yGoalPos = pos_matrix_goal % m, pos_matrix_goal // m
+
+    return np.sum(np.abs(xStartPos-xGoalPos) + np.abs(yStartPos - yGoalPos))
 
 
 def build_position_matrix(matrix):
