@@ -71,7 +71,6 @@ def reconstruct_path(node):
 def print_path(steps):
     """Print the arrays of the path."""
     steps.reverse()
-    print(f"The puzzle was solved in {len(steps) - 1} steps.")
     for step in steps:
         print("===========")
         print(np.reshape(step.puzzle, (3, 3)))
@@ -266,6 +265,7 @@ def solve(start, goal, heuristics, weights):
     if path is False:
         print("Something went wrong.")
     else:
+        print_path(path)
         print(f"Heuristics used: {[heuristic.__name__ for heuristic in heuristics]}")
         print(f"Heuristics ratio:{weights}")
         print(f"The search took {end_time_search - start_time_search} seconds")
@@ -273,7 +273,7 @@ def solve(start, goal, heuristics, weights):
         print(f"The number of visited nodes is: {visited_nodes}")
         print(f"The number of expanded nodes is: {expanded_nodes}")
         print(f"The effective branching factor is: {branching_factor}")
-        print_path(path)
+        print(f"The puzzle was solved in {len(path) - 1} steps.")
 
 
 def main():
