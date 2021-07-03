@@ -155,7 +155,6 @@ def build_position_matrix(matrix):
 @DeprecationWarning
 def manhattan_iterative(start, goal):
     distance = 0
-    distance = 0
     start = np.reshape(start, (3, 3))
     goal = np.reshape(goal, (3, 3))
     pos_matrix1 = build_position_matrix
