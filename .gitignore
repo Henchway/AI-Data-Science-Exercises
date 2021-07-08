@@ -1,6 +1,9 @@
 ﻿Exercise1/.idea
 Exercise1/venv
+Exercise3/__pycache__
+Exercise3/.idea
+Exercise3/venv
+Exercise3/datasets
+Exercise3/images
+Exercise3/weight-height.png
 Exercise1/__pycache__
-Exercise2/.idea
-Exercise2/venv
-Exercise2/weight-height.png
